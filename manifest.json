@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Ad Nuke",
+  "version": "1.0",
+  "description": "Kills popup tabs and hijacked click layers from aggressive streaming sites. Engine-level blocking + instant tab termination.",
+  "permissions": [
+    "declarativeNetRequest",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
